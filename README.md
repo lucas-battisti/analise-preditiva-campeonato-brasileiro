@@ -29,7 +29,6 @@ O foco não é apenas prever resultados, mas compreender os fatores associados �
 
 * **Bibliotecas:**
 
-
 ```python
 import pandas as pd
 import numpy as np

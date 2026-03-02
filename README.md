@@ -811,7 +811,7 @@ plt.show()
 
 * **Analisando o coeficiente da variável posse de bola**:
 
-Estamos calculando $e^{0.05 \cdot \beta_{\text{posse\_}\text{bola}}}$ que representa o fator multiplicativo na chance de vitória a cada aumento de 5 pontos percentuais na posse de bola. Um valor de aproximadamente 0,9974 indica que, nesse caso, um aumento de 5% na posse de bola está associado a uma pequena redução na chance de vitória, sugerindo que a posse de bola, por si só, não tem um efeito positivo relevante sobre o resultado da partida.
+Estamos calculando exp(0.05 × β_posse_de_bola) que representa o fator multiplicativo na chance de vitória a cada aumento de 5 pontos percentuais na posse de bola. Um valor de aproximadamente 0,9974 indica que, nesse caso, um aumento de 5% na posse de bola está associado a uma pequena redução na chance de vitória, sugerindo que a posse de bola, por si só, não tem um efeito positivo relevante sobre o resultado da partida.
 
 
 ```python

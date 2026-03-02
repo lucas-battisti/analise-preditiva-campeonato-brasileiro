@@ -1328,16 +1328,12 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.25)
 logistica = LogisticRegression(penalty=None, # Nenhuma penalização (Lasso/Ridge)
                                solver='saga', max_iter=10000) # Parâmetros para não haver não convergência
 
-floresta = RandomForestClassifier(n_estimators=500) # 100 árvores
+floresta = RandomForestClassifier(n_estimators=500) # 500 árvores
 
 logistica.fit(X_train, y_train)
 floresta.fit(X_train, y_train)
 ```
 
-
-
-
-<div id="sk-container-id-2" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>RandomForestClassifier(n_estimators=500)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator fitted sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-2" type="checkbox" checked><label for="sk-estimator-id-2" class="sk-toggleable__label fitted sk-toggleable__label-arrow"><div><div>RandomForestClassifier</div></div><div><a class="sk-estimator-doc-link fitted" rel="noreferrer" target="_blank" href="https://scikit-learn.org/1.6/modules/generated/sklearn.ensemble.RandomForestClassifier.html">?<span>Documentation for RandomForestClassifier</span></a><span class="sk-estimator-doc-link fitted">i<span>Fitted</span></span></div></label><div class="sk-toggleable__content fitted"><pre>RandomForestClassifier(n_estimators=500)</pre></div> </div></div></div></div>
 
 
 
